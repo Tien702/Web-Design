@@ -1,0 +1,270 @@
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.page-container{
+    width: 100%;
+    height: 100vh;
+}
+/* sale up 50% */
+#sale{
+    width: 100%;
+    height: 40px;
+    background: #eaeaea;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 14px;
+    font-style: normal;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#sale a{
+    text-decoration: none; 
+    color: #1f2f29;
+}
+/* Logo Trang chủ */
+#logo{
+    padding-top: 40px;
+    padding-left: 44%;
+    font-size: 18px;
+    font-style: italic;
+    float: left;
+}
+#logo a{
+    text-decoration: none; 
+    color: #1f2f29;
+}
+/* Công cụ */
+#tile{
+    background: black;
+    padding-left: 35%;
+}
+#tile ul li a{ 
+    float: right;
+    text-decoration: none; 
+    margin: 20px ;  
+    margin-top: 55px;
+    margin-left: 1px;
+    color: #1f2f29;
+} 
+#tile ul li{
+    list-style: none;
+    padding-left: 55%;
+}
+
+/* menu */
+#menu{
+    clear: both;
+    text-align: center;
+    background-color: #eaeaea;
+    height: 50px;
+    padding-top: 15px;
+    
+}
+#menu ul li a{
+    text-decoration: none; 
+    text-align: center;
+    margin: 20px ;  
+    color: #1f2f29;
+}
+#menu ul li{
+    position: relative;
+    display: inline-block;
+}
+#menu ul li a:hover{
+    border-bottom: 1px solid #1f2f29;
+
+    
+}
+/*sub menu */
+#sub{
+    display: none;
+    padding:5px 0px;
+    position:absolute;
+    animation: show 1s;
+}
+#sub ul li{
+    text-align: left;
+    background: #eaeaea;
+    border-bottom: 1px solid #1f2f29;
+    padding-top: 15px;
+    width: 580px;
+    height: 40px;
+    font-style: oblique;
+}
+#sub ul li a{   
+    color: #1f2f29;
+}
+#menu ul li:hover #sub{
+    display: block;
+
+}
+#sub ul li:nth-child(2){
+    border-bottom: none;
+}
+#sub ul li:nth-child(3){
+    border-bottom: none;
+}
+#sub ul li:nth-child(4){
+    border-bottom: none;
+}
+#sub ul li:last-child{
+    border-bottom: none;
+}
+
+#sub1{
+    display: none;
+    padding:5px 0px;
+    position:absolute;
+    animation: show 2s;
+}
+#sub1 ul li{
+    text-align: left;
+    background: #eaeaea;
+    border-bottom: 1px solid #1f2f29;
+    padding-top: 15px;
+    width: 380px;
+    height: 40px;
+    font-style: oblique;
+}
+#sub1 ul li a{   
+    color: #1f2f29;
+}
+#menu ul li:hover #sub1{
+    display: block;
+
+}
+#sub1 ul li:nth-child(2){
+    border-bottom: none;
+}
+#sub1 ul li:nth-child(3){
+    border-bottom: none;
+}
+#sub1 ul li:nth-child(4){
+    border-bottom: none;
+}
+#sub1 ul li:last-child{
+    border-bottom: none;
+}
+
+@keyframes show{
+    0%{
+        opacity: 0;
+    }
+    25%{
+        opacity: 0,25;
+    }
+    50%{
+        opacity: 0,50;
+    }
+    75%{
+        opacity: 0,75;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+#item{
+    width: auto;
+    height: 500px;
+}
+/*-----------------------CSS cho Hình ảnh----------------------*/
+body{
+    background: #f2c0e1;
+
+}
+
+.dep1{
+    margin: 30px;
+    width: 25%;
+    height: 300px;
+    float: left;  
+}
+
+.hinh{
+    height: 260px;
+}
+
+
+.ten{
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+}
+.giatien{
+    margin-left: 100px;
+
+}
+.giagoc{
+    float: left;
+    text-align: center;
+}
+.giamgia{
+    color: red;
+    margin-left: 20px;
+    float: left;
+}
+
+/*---------------------------------------------*/
+.dep2{
+    margin: 30px;
+    width: 25%;
+    height: 300px;
+    float: left;
+}
+
+/*--------------------------------------------*/
+.dep3{
+    margin: 30px;
+    width: 25%;
+    height: 300px;
+    float: left;
+}
+
+/*--------------------------------------------*/
+.dep4{
+    margin: 30px;
+    width: 25%;
+    height: 300px;
+    float: left;
+}
+/*---------------------------------------------*/
+.dep5{
+    margin: 30px;
+    width: 25%;
+    height: 300px;
+    float: left;
+}
+/*---------------------------------------------*/
+.dep6{
+    margin: 30px;
+    width: 25%;
+    height: 300px;
+    float: left;
+}
+/*---------------------------------------------*/
+.dep7{
+    margin: 30px;
+    width: 25%;
+    height: 300px;
+    float: left;
+}
+/*---------------------------------------------*/
+.dep8{
+    margin: 30px;
+    width: 25%;
+    height: 300px;
+    float: left;
+}
+
+/*---------------------------------------------*/
+.dep9{
+    margin: 30px;
+    width: 25%;
+    height: 300px;
+    float: left;
+}
