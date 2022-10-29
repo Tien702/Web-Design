@@ -168,24 +168,27 @@
     }
 }
 #item{
-    width: auto;
-    height: 500px;
+    min-width: 1920px;
+    min-height: 200px;
 }
 /*-----------------------CSS cho Hình ảnh----------------------*/
+
+
+
 body{
-    background: #f2c0e1;
+    background: #eaeaea;
 
 }
 
 .dep1{
     margin: 30px;
-    width: 25%;
-    height: 300px;
+    width: 30%;
+    height: 400px;
     float: left;  
 }
 
 .hinh{
-    height: 260px;
+    height: 400px;
 }
 
 
@@ -196,11 +199,12 @@ body{
 
 }
 .giatien{
-    margin-left: 100px;
+    margin-left: 110px;
 
 }
 .giagoc{
     float: left;
+    margin-left: 100px;
     text-align: center;
 }
 .giamgia{
@@ -212,59 +216,59 @@ body{
 /*---------------------------------------------*/
 .dep2{
     margin: 30px;
-    width: 25%;
-    height: 300px;
+    width: 30%;
+    height: 400px;
     float: left;
 }
 
 /*--------------------------------------------*/
 .dep3{
     margin: 30px;
-    width: 25%;
-    height: 300px;
+    width: 30%;
+    height: 400px;
     float: left;
 }
 
 /*--------------------------------------------*/
 .dep4{
     margin: 30px;
-    width: 25%;
-    height: 300px;
+    width: 30%;
+    height: 400px;
     float: left;
 }
 /*---------------------------------------------*/
 .dep5{
     margin: 30px;
-    width: 25%;
-    height: 300px;
+    width: 30%;
+    height: 400px;
     float: left;
 }
 /*---------------------------------------------*/
 .dep6{
     margin: 30px;
-    width: 25%;
-    height: 300px;
+    width: 30%;
+    height: 400px;
     float: left;
 }
 /*---------------------------------------------*/
 .dep7{
     margin: 30px;
-    width: 25%;
-    height: 300px;
+    width: 30%;
+    height: 400px;
     float: left;
 }
 /*---------------------------------------------*/
 .dep8{
     margin: 30px;
-    width: 25%;
-    height: 300px;
+    width: 30%;
+    height: 400px;
     float: left;
 }
 
 /*---------------------------------------------*/
 .dep9{
     margin: 30px;
-    width: 25%;
-    height: 300px;
+    width: 30%;
+    height: 400px;
     float: left;
 }
