@@ -1,6 +1,4 @@
-*,
-*:before,
-*:after {
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -9,6 +7,7 @@
 .page-container{
     width: 100%;
     height: 100vh;
+    position: relative;
 }
 /* sale up 50% */
 #sale{
@@ -167,22 +166,30 @@
         opacity: 1;
     }
 }
-#item{
-    min-width: 1920px;
-    min-height: 200px;
-}
+.aspect-ratio{
+    display: block;
+  }
+  .aspect-ratio img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+  }
+
 /*-----------------------CSS cho Hình ảnh----------------------*/
 
 
 
-body{
-    background: #eaeaea;
 
+body{
+    
+    background: #eaeaea;
 }
 
 .dep1{
     margin: 30px;
-    width: 30%;
+    width: 25%;
     height: 400px;
     float: left;  
 }
@@ -216,7 +223,7 @@ body{
 /*---------------------------------------------*/
 .dep2{
     margin: 30px;
-    width: 30%;
+    width: 25%;
     height: 400px;
     float: left;
 }
@@ -224,7 +231,7 @@ body{
 /*--------------------------------------------*/
 .dep3{
     margin: 30px;
-    width: 30%;
+    width: 25%;
     height: 400px;
     float: left;
 }
@@ -232,35 +239,35 @@ body{
 /*--------------------------------------------*/
 .dep4{
     margin: 30px;
-    width: 30%;
+    width: 25%;
     height: 400px;
     float: left;
 }
 /*---------------------------------------------*/
 .dep5{
     margin: 30px;
-    width: 30%;
+    width: 25%;
     height: 400px;
     float: left;
 }
 /*---------------------------------------------*/
 .dep6{
     margin: 30px;
-    width: 30%;
+    width: 25%;
     height: 400px;
     float: left;
 }
 /*---------------------------------------------*/
 .dep7{
     margin: 30px;
-    width: 30%;
+    width: 25%;
     height: 400px;
     float: left;
 }
 /*---------------------------------------------*/
 .dep8{
     margin: 30px;
-    width: 30%;
+    width: 25%;
     height: 400px;
     float: left;
 }
@@ -268,26 +275,97 @@ body{
 /*---------------------------------------------*/
 .dep9{
     margin: 30px;
-    width: 30%;
+    width: 25%;
     height: 400px;
     float: left;
 }
 /*---------------------------------------------*/
 .dep10{
     margin: 30px;
-    width: 30%;
+    width: 25%;
     height: 400px;
     float: left;
 }/*---------------------------------------------*/
 .dep11{
     margin: 30px;
-    width: 30%;
+    width: 25%;
     height: 400px;
     float: left;
 }/*---------------------------------------------*/
 .dep12{
     margin: 30px;
-    width: 30%;
+    width: 25%;
     height: 400px;
     float: left;
+}
+/*---------------------Menu dưới------------------------*/
+/*--------------Thông tin------------------------------*/
+
+.menu-left{
+    margin-top: 50px;
+    clear: both;
+    float: left;
+}
+.menu-left ul li{
+    list-style: none;
+    padding: 10px;
+}
+.menu-left ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+}
+/*-------------------Chi nhánh--------------------------*/
+.menu-mid{
+    margin-top: 50px;
+    margin-left: 300px;  
+    float: left;
+}
+.menu-mid ul li{
+    list-style: none;
+    padding: 10px;
+    
+}
+.menu-mid ul li a{
+    border-bottom:solid 1px green;
+    color: green;
+    text-decoration: none;
+}
+/*------------------Liên hệ--------------------------*/
+
+.menu-right{
+    float: right;
+    margin: 50px;
+    height: 1000px;
+}
+
+.menu-right ul li{
+    list-style: none;
+    padding: 10px;
+}
+
+.menu-right ul li a{
+    text-decoration: none;
+    border-bottom: solid 1px rgb(0, 0, 0);
+}
+.text{
+    margin-top: 50px;
+    clear: both;
+    width: 300px;
+}
+.text h3{
+    margin-top: 2400px;
+}
+
+/* Sale page 2 */
+#sale-1{
+    text-align: center;
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+/* Vida page 3 */
+#vida{
+    text-align: center;
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }

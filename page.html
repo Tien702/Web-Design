@@ -9,14 +9,14 @@
     <script src='main.js'></script>
 </head>
 <body>
-    <div class="page-container">
+    <div class="Container">
 
                 <div id="sale">
-                    <a href="****">Sale up to 50%</a>
+                    <a href="category_sale.html">Sale up to 50%</a>
                 </div> 
 
                 <div id="logo">
-                    <a href="TourDates.html "><h1><b>LEONARDO</b></h1></a>
+                    <a href="page.html"><h1><b>LEONARDO</b></h1></a>
                 </div>
 
                 <div id="tile">
@@ -32,7 +32,7 @@
                     <li><a href="2">MEN</a>
                         <div id="sub">
                             <ul>
-                                <li><a href="item.html">Ví da</a>
+                                <li><a href="category_vi.html">Ví da</a>
                                 &nbsp;&nbsp;&nbsp;&nbsp;
                                 &nbsp;&nbsp;&nbsp;&nbsp;
                                 &nbsp;&nbsp;&nbsp;&nbsp;
@@ -150,10 +150,9 @@
                 </ul>
 
         </div>  
-        
-        <div id="item">
-            <img src = "logodepnen.jpg" alt=" absfvaavsf">
-        </div>
+            <div class="aspect-ratio">
+                    <img src = "logodepnen.jpg">
+            </div>
         <!-------------------------------------Code Hình Ảnh--------------------------------------------->
         <div class="allanh">
 			<div class="dep1">
@@ -270,7 +269,83 @@
 				</div>
 			</div>
 		</div>
+        <!-------------------------------code menu duoi---------------------------------> 
+            <div class="menu-left">
+                <ul>
+                    <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<h3>THÔNG TIN</h3></li>
+                    <li><a href="#">Về chúng tôi</a></li>
+                    <li><a href="#">Tuyển dụng</a></li>
+                    <li><a href="#">Hình thức vận chuyển</a></li>
+                    <li><a href="#">Hệ thống cửa hàng</a></li>
+                    <li><a href="#">Hình thức thanh toán</a></li>
+                    <li><a href="#">Chính sách đổi trả</a></li>
+                    <li><a href="#">Chính sách bảo hành</a></li>
+                    <li><a href="#">Chính sách bảo mật</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Refund policy</a></li>
+                </ul>
+            </div>
+            <div class="menu-mid">
+                <ul>
+                    <li><h3>CHI NHÁNH</h3> </li>
+                    <li> chi nhánh 1</li>
+                    <li><a href="#">Núi thành 1</a></li>
+                    <li> chi nhánh 2</li>
+                    <li><a href="#">Núi thành 2</a></li>
+                    <li> chi nhánh 3</li>
+                    <li><a href="#">Núi thành 3</a></li>
+                    <li> chi nhánh 4</li>
+                    <li><a href="#">Núi thành 4</a></li>
+                    <li> chi nhánh 5</li>
+                    <li><a href="#">Núi thành 5</a></li>
+                    
+                </ul>
+            </div>
+            <div class="text">
+                <h3>Về chúng tôi</h3>
+                <p> Leonardo là thương hiệu phụ kiện thời trang, 
+                    sứ mệnh của chúng tôi là tạo ra một thương hiệu Việt Nam, 
+                    nơi cung cấp tất cả các sản phẩm về phụ kiện và thời trang giành cho giới trẻ,
+                    với triết lý thiết kế theo phong cách tối giản,
+                    tập trung vào tính hữu dụng và sự bền bỉ trong từng sản phẩm.
+                </p>
+            </div>
+            <div class="menu-right">
+                <ul>
+                    <li><h3>Liên hệ</h3></li>
+                    <li><h4>Hostline mua hàng</h4></li>
+                    <li><a href="#">123456789</a></li>
+                    <li>Zalo: <a href="#">123456789</a></li>
+                    <li>Thời gian: 8h - 21h00 mỗi ngày</li>
+                    <li><h4>Hotline Góp ý & Khiếu nại</h4></li>
+                    <li><a href="#">123456789</a></li>
+                    <li>Zalo: <a href="#">123456789</a></li>
+                    <li>Thời gian: 8h - 17h00_Thứ 2 - Thứ 7</li>
+                    <li>Email: <a href="#">abc@gmail.com</a></li>
+                </ul>
+            </div>
+
     </div>
 
 </body>
+<!-- <script>
+    const imgPosition = document.querySelectorAll(".aspect-ratio img")
+    const imgContainer = document.querySelector('.aspect-ratio')
+    let index = 0
+    let imgnumber = imgPosition.length
+
+    imgPosition.forEach(function(image,index){
+        image.style.left = index*100 + "%"
+    })
+    function imgSlide(){
+        index++;
+        console.log(index)
+        if(index>=imgnumber){
+            index = 0
+        }
+        imgContainer.style.left = "-" +index*100+ "%"
+
+    }
+    setInterval(imgSlide,5000)
+</script> -->
 </html>
